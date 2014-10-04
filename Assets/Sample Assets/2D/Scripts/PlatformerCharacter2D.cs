@@ -102,4 +102,5 @@ public class PlatformerCharacter2D : MonoBehaviour
 		theScale.x *= -1;
 		playerGraphics.localScale = theScale;
 	}
+
 }
