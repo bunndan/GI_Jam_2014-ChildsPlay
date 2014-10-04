@@ -12,6 +12,13 @@
 /*.pidb
 /*.booproj
 
+/Library/FailedAssetImports.txt
+/Library/cache/
+/Library/previews/
+/Library/ScriptAssemblies
+/obj
+/Temp
+
 #Unity3D Generated File On Crash Reports
 sysinfo.txt
 
