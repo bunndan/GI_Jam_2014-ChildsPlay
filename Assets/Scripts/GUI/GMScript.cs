@@ -10,8 +10,8 @@ public class GMScript : MonoBehaviour {
 	GUI_Character_IntroSplash introSplash;
 	GUI_Bubble_Text bubbleText;
 
-	public int startHP    = 5;
-	public int startMoney = 5;
+	public int currentHP  = 5;
+	public int currentMoney = 5;
 	public int maxHP      = 5;
 	public int maxMoney   = 5;
 	public int spacing    = 10;
@@ -20,7 +20,7 @@ public class GMScript : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
-		playerStats = new GUI_Player_Stats (hpIcon, moneyIcon, startHP, startMoney, maxHP, maxMoney);
+		playerStats = new GUI_Player_Stats (hpIcon, moneyIcon, currentHP, currentMoney, maxHP, maxMoney);
 		bubbleText = new GUI_Bubble_Text ();
 		bubbleText.AddDialog (GameObject.Find ("Player"), "Lorem Ipsum.", 100, dialogDuration);
 	}

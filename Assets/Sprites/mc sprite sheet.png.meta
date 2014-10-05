@@ -1,0 +1,267 @@
+fileFormatVersion: 2
+guid: 7593c5f80f1b7e1479fbb07f78d61f52
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: mc sprite sheet_0
+    21300002: mc sprite sheet_9
+    21300004: mc sprite sheet_11
+    21300006: mc sprite sheet_12
+    21300008: mc sprite sheet_13
+    21300010: mc sprite sheet_14
+    21300012: mc sprite sheet_15
+    21300014: mc sprite sheet_21
+    21300016: mc sprite sheet_27
+    21300018: mc sprite sheet_29
+    21300020: attack_2
+    21300022: attack_3
+    21300024: mc sprite sheet_35
+    21300026: attack_1
+    21300028: stand
+    21300030: jump
+    21300032: run_1
+    21300034: run_2
+    21300036: run_3
+    21300038: run_4
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 475
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: mc sprite sheet_0
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 5621
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mc sprite sheet_9
+      rect:
+        serializedVersion: 2
+        x: 4046
+        y: 3889
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mc sprite sheet_11
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 3872
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mc sprite sheet_12
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 3857
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mc sprite sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 3840
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mc sprite sheet_14
+      rect:
+        serializedVersion: 2
+        x: 2849
+        y: 3832
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mc sprite sheet_15
+      rect:
+        serializedVersion: 2
+        x: 6031
+        y: 3796
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mc sprite sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 3569
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mc sprite sheet_27
+      rect:
+        serializedVersion: 2
+        x: 4415
+        y: 3266
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mc sprite sheet_29
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 2008
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attack_2
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 952
+        width: 2040
+        height: 1304
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attack_3
+      rect:
+        serializedVersion: 2
+        x: 4357
+        y: 1067
+        width: 1281
+        height: 1304
+      alignment: 9
+      pivot: {x: .189999998, y: .50059998}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mc sprite sheet_35
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1367
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: attack_1
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 964
+        width: 1379
+        height: 1332
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: stand
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 4524
+        width: 875
+        height: 1363
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jump
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 4551
+        width: 1213
+        height: 1286
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: run_1
+      rect:
+        serializedVersion: 2
+        x: 5382
+        y: 2730
+        width: 1320
+        height: 1358
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: run_2
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 2824
+        width: 1068
+        height: 1326
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: run_3
+      rect:
+        serializedVersion: 2
+        x: 3610
+        y: 2856
+        width: 1031
+        height: 1332
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: run_4
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 2812
+        width: 1314
+        height: 1326
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

@@ -4,6 +4,11 @@ public class PlatformerCharacter2D : MonoBehaviour
 {
 	bool facingRight = true;							// For determining which way the player is currently facing.
 
+	GMScript gmScript;
+
+	GameObject userScriptInfo;
+
+	private int currentHealth = 10;
 	[SerializeField] float maxSpeed = 10f;				// The fastest the player can travel in the x axis.
 	[SerializeField] float jumpForce = 400f;			// Amount of force added when the player jumps.	
 
@@ -28,10 +33,31 @@ public class PlatformerCharacter2D : MonoBehaviour
 		groundCheck = transform.Find("GroundCheck");
 		ceilingCheck = transform.Find("CeilingCheck");
 		anim = GetComponent<Animator>();
-		playerGraphics = transform.FindChild ("Graphics"); // "Graphics" is the name of the object
+		playerGraphics = transform.FindChild ("MC"); // "Graphics" is the name of the object
 		if (playerGraphics == null) {
 			Debug.LogError ("Let's freak out! There is no 'Graphics' object as a child of the player");
 		}
+		// GameObject userScriptInfo = GameObject.FindGameObjectWithTag ("gmScript");
+	}
+	
+	void OnGUI()
+	{
+		//display score in the top left corner of the screen.
+		GUI.Label( new Rect(0,0,Screen.width, Screen.height), string.Format("Player's Health: {0}", currentHealth));
+	}
+	
+	
+	void OnCollisionEnter2D( Collision2D collision)
+	{
+		print (userScriptInfo);
+
+		if (collision.gameObject.tag.Contains ("Enemy")) {
+			currentHealth -= 1;
+		}
+		if (currentHealth <= 0) {
+			Destroy (this.gameObject);
+		}
+
 	}
 
 
@@ -46,10 +72,10 @@ public class PlatformerCharacter2D : MonoBehaviour
 	}
 
 
-	public void Move(float move, bool crouch, bool jump)
+	public void Move(float move, bool attack, bool jump)
 	{
 
-
+		/*
 		// If crouching, check to see if the character can stand up
 		if(!crouch && anim.GetBool("Crouch"))
 		{
@@ -60,13 +86,14 @@ public class PlatformerCharacter2D : MonoBehaviour
 
 		// Set whether or not the character is crouching in the animator
 		anim.SetBool("Crouch", crouch);
-
+		*/
 		//only control the player if grounded or airControl is turned on
 		if(grounded || airControl)
 		{
 			// Reduce the speed if crouching by the crouchSpeed multiplier
-			move = (crouch ? move * crouchSpeed : move);
-
+			// move = (crouch ? move * crouchSpeed : move);
+ 			anim.SetBool ("Attack", attack);
+			
 			// The Speed animator parameter is set to the absolute value of the horizontal input.
 			anim.SetFloat("Speed", Mathf.Abs(move));
 
