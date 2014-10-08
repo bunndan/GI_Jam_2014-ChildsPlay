@@ -1,0 +1,124 @@
+fileFormatVersion: 2
+guid: eebd01200e7c49b46baedbb06685c5f0
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: boss sprite sheet_0
+    21300002: boss sprite sheet_1
+    21300004: boss sprite sheet_2
+    21300006: boss sprite sheet_3
+    21300008: boss sprite sheet_4
+    21300010: boss sprite sheet_5
+    21300012: boss sprite sheet_6
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 475
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: boss sprite sheet_0
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 4389
+        width: 1195
+        height: 1509
+      alignment: 9
+      pivot: {x: .392100006, y: .57861197}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boss sprite sheet_1
+      rect:
+        serializedVersion: 2
+        x: 2061
+        y: 4423
+        width: 1889
+        height: 1534
+      alignment: 9
+      pivot: {x: .39624697, y: .530260086}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boss sprite sheet_2
+      rect:
+        serializedVersion: 2
+        x: 4949
+        y: 4667
+        width: 499
+        height: 862
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boss sprite sheet_3
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 2385
+        width: 2026
+        height: 1409
+      alignment: 9
+      pivot: {x: .251698643, y: .54709506}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boss sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 353
+        width: 1741
+        height: 1593
+      alignment: 9
+      pivot: {x: .759397089, y: .563414037}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boss sprite sheet_5
+      rect:
+        serializedVersion: 2
+        x: 2798
+        y: 443
+        width: 2947
+        height: 1527
+      alignment: 9
+      pivot: {x: .485885233, y: .538559735}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: boss sprite sheet_6
+      rect:
+        serializedVersion: 2
+        x: 6179
+        y: 430
+        width: 1402
+        height: 1462
+      alignment: 9
+      pivot: {x: .417946458, y: .533620954}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

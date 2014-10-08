@@ -1,0 +1,113 @@
+fileFormatVersion: 2
+guid: 536fa3b455c8f2c41907c1d538cd20ec
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ninja sprite sheet_0
+    21300002: ninja sprite sheet_1
+    21300004: ninja sprite sheet_2
+    21300006: ninja sprite sheet_3
+    21300008: ninja sprite sheet_4
+    21300010: ninja sprite sheet_5
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: 1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 475
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: ninja sprite sheet_0
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 2122
+        width: 715
+        height: 1453
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninja sprite sheet_1
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 2201
+        width: 1328
+        height: 1414
+      alignment: 9
+      pivot: {x: .462462813, y: .508393824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninja sprite sheet_2
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 186
+        width: 1164
+        height: 1550
+      alignment: 9
+      pivot: {x: .612808168, y: .515760958}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninja sprite sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 217
+        width: 1879
+        height: 1510
+      alignment: 9
+      pivot: {x: .430117846, y: .495955318}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninja sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 3905
+        y: 208
+        width: 1482
+        height: 1374
+      alignment: 9
+      pivot: {x: .438184649, y: .513334811}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ninja sprite sheet_5
+      rect:
+        serializedVersion: 2
+        x: 3401
+        y: 2892
+        width: 406
+        height: 171
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

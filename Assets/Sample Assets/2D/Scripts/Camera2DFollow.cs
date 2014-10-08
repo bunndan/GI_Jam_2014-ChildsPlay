@@ -9,6 +9,7 @@ public class Camera2DFollow : MonoBehaviour {
 	public float lookAheadReturnSpeed = 0.5f;
 	public float lookAheadMoveThreshold = 0.1f;
 	public float offsetY = 4;
+	public float pixelsPerUnit = 32.0f;
 
 	float offsetZ;
 	Vector3 lastTargetPosition;
@@ -40,7 +41,17 @@ public class Camera2DFollow : MonoBehaviour {
 		
 		Vector3 aheadTargetPos = target.position + lookAheadPos + Vector3.forward * offsetZ + verticalOffset;
 		Vector3 newPos = Vector3.SmoothDamp(transform.position, aheadTargetPos, ref currentVelocity, damping);
-		
+
+
+
+
+
+		double cameraSize = Camera.main.camera.orthographicSize * pixelsPerUnit;
+		print (cameraSize);
+		//float cameraPos = target.position - 
+
+
+
 		transform.position = newPos;
 		
 		lastTargetPosition = target.position;		

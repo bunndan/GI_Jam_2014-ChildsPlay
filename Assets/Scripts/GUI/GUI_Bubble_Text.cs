@@ -2,6 +2,14 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
+//structure to hold one dialog info
+public struct dialog_info{
+	public string obj_name;
+	public string dialog;
+	public int dialog_width;
+	public float time_duration;
+}
+
 //bubble text class
 public class GUI_Bubble_Text
 {
@@ -44,13 +52,16 @@ public class GUI_Bubble_Text
 
 	//add new dialog
 	public void AddDialog(GameObject talking_obj, string dialogTxt, int dialogWidth, float dialogDuration) {
-		//setup our dialog info
-		obj_name.Add (talking_obj.name);
-		dialog.Add (dialogTxt);
-		dialog_width.Add (dialogWidth);
-		time_duration.Add (dialogDuration);
-		start_time.Add (Time.time);
-		num_dialogs = num_dialogs + 1;
+
+		if (talking_obj != null) {
+			//setup our dialog info
+			obj_name.Add (talking_obj.name);
+			dialog.Add (dialogTxt);
+			dialog_width.Add (dialogWidth);
+			time_duration.Add (dialogDuration);
+			start_time.Add (Time.time);
+			num_dialogs = num_dialogs + 1;
+		}
 	}
 
 	//remove old dialog

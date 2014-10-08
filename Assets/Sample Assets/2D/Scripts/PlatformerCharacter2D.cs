@@ -4,7 +4,7 @@ public class PlatformerCharacter2D : MonoBehaviour
 {
 	bool facingRight = true;							// For determining which way the player is currently facing.
 
-	GMScript gmScript;
+//	GMScript gmScript;
 
 	GameObject userScriptInfo;
 
@@ -92,7 +92,7 @@ public class PlatformerCharacter2D : MonoBehaviour
 		{
 			// Reduce the speed if crouching by the crouchSpeed multiplier
 			// move = (crouch ? move * crouchSpeed : move);
- 			anim.SetBool ("Attack", attack);
+			anim.SetBool ("Attack", attack);
 			
 			// The Speed animator parameter is set to the absolute value of the horizontal input.
 			anim.SetFloat("Speed", Mathf.Abs(move));
